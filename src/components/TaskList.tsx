@@ -37,7 +37,7 @@ export function TaskList()
     {
       if (task.id === id)
       {
-        task.isComplete = true
+        task.isComplete = !task.isComplete
         return task
       }
     })
